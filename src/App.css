@@ -1,0 +1,25 @@
+::root {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+html,
+#root,
+.App {
+  height: 100%;
+}
+
+body {
+  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  font-size: calc(11px + 5 * ((100vw - 450px) / 1470));
+}
