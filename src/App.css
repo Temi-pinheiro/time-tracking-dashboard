@@ -19,7 +19,9 @@ html,
 }
 
 body {
-  font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
   min-height: 100vh;
-  font-size: calc(11px + 5 * ((100vw - 450px) / 1470));
+  /* font-size: calc(8 + 4 * ((100vw - 375px) / 1065)); */
+  font-size: 16px;
+  background: hsl(226, 43%, 10%);
 }
