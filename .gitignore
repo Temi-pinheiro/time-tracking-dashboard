@@ -21,6 +21,8 @@ dist-ssr
 .DS_Store
 .prettierignore
 
+
 package-lock.json
 style-guide.md
 front-end-index.html
+images/timer-icon.png

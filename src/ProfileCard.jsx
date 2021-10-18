@@ -13,7 +13,7 @@ function ProfileCard(props) {
   return (
     <CardContainer>
       <NameSection>
-        <img src={pfp} />
+        <img src='/images/image-jeremy.png' />
         <TextSection>
           <h3>Report For</h3>
           <h1>{name}</h1>
