@@ -1,6 +1,6 @@
 const data = [
   {
-    img: './images/icon-work.svg',
+    img: '/images/icon-work.svg',
     title: 'Work',
     timeframes: {
       daily: {
@@ -18,7 +18,7 @@ const data = [
     },
   },
   {
-    img: './images/icon-play.svg',
+    img: '/images/icon-play.svg',
     title: 'Play',
     timeframes: {
       daily: {
@@ -36,7 +36,7 @@ const data = [
     },
   },
   {
-    img: 'images/icon-study.svg',
+    img: '/images/icon-study.svg',
     title: 'Study',
     timeframes: {
       daily: {
@@ -54,7 +54,7 @@ const data = [
     },
   },
   {
-    img: './images/icon-exercise.svg',
+    img: '/images/icon-exercise.svg',
     title: 'Exercise',
     timeframes: {
       daily: {
@@ -72,7 +72,7 @@ const data = [
     },
   },
   {
-    img: './images/icon-social.svg',
+    img: '/images/icon-social.svg',
     title: 'Social',
     timeframes: {
       daily: {
@@ -90,7 +90,7 @@ const data = [
     },
   },
   {
-    img: './images/icon-self-care.svg',
+    img: '/images/icon-self-care.svg',
     title: 'Self Care',
     timeframes: {
       daily: {
