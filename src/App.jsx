@@ -24,10 +24,15 @@ function App() {
               </h1>
             </div>
           </div>
-          <ul>
+          <ul className='p-6 md:pl-6 md:pb-8 md:pt-6 text-[#7078C9] text-lg gap-y-5 flex justify-between md:flex-col'>
             {timeFrames.map((frame, index) => (
               <li key={index}>
-                <button onClick={() => setActivePane(frame)}>{frame}</button>
+                <button
+                  className='transition duration-300 ease-in-out hover:text-white'
+                  onClick={() => setActivePane(frame)}
+                >
+                  {frame}
+                </button>
               </li>
             ))}
           </ul>
